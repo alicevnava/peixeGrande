@@ -1,0 +1,111 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(210, 210, 210);
+}
+
+/* cabeçalho */
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav{
+    color: black;
+    height: 3.125rem;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+/* banner */
+#banner{
+    display: flex;
+
+    #bannerImg1{
+    width: 30%;
+    }
+
+    #bannerImg2{
+        width: 70%;
+    }
+}
+
+/* mensagem */
+#slogan{
+    width: 100%;
+    height: 1.563rem;
+    display: flex;
+    align-items: center;
+    padding: 0.625rem 0;
+    
+    p{
+        margin-left: 1.25rem;
+        font-size: 1.25rem;
+        
+    }
+}
+
+/* principal */
+#textos{
+    display: flex; 
+
+    .tituloSecao{
+    background-color: black;
+    color: white;
+    padding: 10px 2.5% ;
+    font-size: 1.563rem;
+    }
+
+    h5{
+        font-size: 1.25rem;
+        margin-left:  1.25rem;
+        margin-top: 0.625rem;
+        text-decoration: underline;
+    }
+
+    p{
+        font-size:1.25rem;
+        margin-left:  1.25rem;
+        margin-top: 0.313rem;
+        padding-top: 0.625rem;
+    }
+
+}
+
+/* seções */
+#servicos{
+    width: 75%;
+}
+
+#agenda{
+    width: 25%;
+}
+
+#mapaSite{
+    background-color: rgb(191, 191, 191);
+    padding: 0.313rem 0;
+    margin: 1.25rem 0 ;
+    p{
+        padding: 5px;
+        font-size: 0.938rem;
+    }
+
+}
+
+/* rodape */
+footer{
+    background-color: black;
+    color: white;
+    padding: 0.625rem 1.563rem;
+    margin: 1.25rem 0;
+    font-size: 1.063rem;
+
+    p{
+        padding-top: 0.313rem;
+
+    }
+}
